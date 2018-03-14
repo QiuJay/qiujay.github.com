@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your blog</title>
-    <description>I know that what I'm doing looks stupid, but I'm a big boy and really want to do this.</description>
-    <link>http://localhost:4000/materialize-jekyll/</link>
-    <atom:link href="http://localhost:4000/materialize-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Mar 2018 11:46:51 +0800</pubDate>
-    <lastBuildDate>Wed, 14 Mar 2018 11:46:51 +0800</lastBuildDate>
-    <generator>Jekyll v3.7.3</generator>
+    <title>John Smith</title>
+    <description>My Personal Blog</description>
+    <link>http://localhost:4000https://codeasashu.github.io/hcz-jekyll-blog/</link>
+    <atom:link href="http://localhost:4000https://codeasashu.github.io/hcz-jekyll-blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 14 Mar 2018 17:22:20 +0800</pubDate>
+    <lastBuildDate>Wed, 14 Mar 2018 17:22:20 +0800</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -23,137 +23,171 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 30 Dec 2016 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/materialize-jekyll/posts/blog/jekyll/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/materialize-jekyll/posts/blog/jekyll/welcome-to-jekyll.html</guid>
+        <pubDate>Sat, 04 Jun 2016 21:50:39 +0800</pubDate>
+        <link>http://localhost:4000https://codeasashu.github.io/hcz-jekyll-blog/jekyll/2016/06/04/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://codeasashu.github.io/hcz-jekyll-blog/jekyll/2016/06/04/welcome-to-jekyll.html</guid>
         
-        
-        <category>blog</category>
         
         <category>jekyll</category>
         
       </item>
     
       <item>
-        <title>An example post</title>
-        <description>&lt;p&gt;This is an example of post.&lt;/p&gt;
+        <title>Example content for posts</title>
+        <description>&lt;p&gt;&lt;small&gt;This demo page has been used from &lt;a href=&quot;http://jasonm23.github.io/markdown-css-themes/&quot; target=&quot;_blank&quot;&gt;http://jasonm23.github.io/markdown-css-themes/&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;posts-yaml&quot;&gt;Post’s YAML&lt;/h2&gt;
+&lt;h1&gt;A First Level Header&lt;/h1&gt;
 
-&lt;hr /&gt;
+&lt;h2&gt;A Second Level Header&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout: post&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;This should &lt;strong&gt;NOT&lt;/strong&gt; be changed.&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;The title of your article.&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;E.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;author: Lambda&lt;/code&gt;, default is the site’s author.&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;date&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;E.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;date: 2015-08-17&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;data: 2015-08-17 15:06:10&lt;/code&gt;&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt;&lt;/dt&gt;
-      &lt;dd&gt;No blanks, one post to one category. E.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;categories: [&quot;test&quot;]&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;categories: [&quot;test-this&quot;]&lt;/code&gt;&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt; (optional)&lt;/dt&gt;
-      &lt;dd&gt;You can specify one or more tags. E.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;tags: [jekyll, html]&lt;/code&gt;.&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3&gt;A Third Level Header&lt;/h3&gt;
+
+&lt;h4&gt;A Fourth Level Header&lt;/h4&gt;
+
+&lt;h5&gt;A Fifth Level Header&lt;/h5&gt;
+
+&lt;h6&gt;A Sixed Level Header&lt;/h6&gt;
+
+&lt;p&gt;Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.&lt;/p&gt;
+
+&lt;p&gt;The quick brown fox jumped over the lazy
+dog&amp;rsquo;s back.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mathjax&lt;/code&gt; (optional)&lt;/dt&gt;
-      &lt;dd&gt;if you need enable mathjax: &lt;code class=&quot;highlighter-rouge&quot;&gt;mathjax: true&lt;/code&gt;; otherwise mean disable.&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;update&lt;/code&gt; (optional)&lt;/dt&gt;
-      &lt;dd&gt;E.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;update: 2015-05-02&lt;/code&gt;&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;comment&lt;/code&gt; (optional)&lt;/dt&gt;
-      &lt;dd&gt;enable the comment. E.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;comment: true&lt;/code&gt;&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;published&lt;/code&gt; (optional)&lt;/dt&gt;
-      &lt;dd&gt;true or false&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3&gt;Header 3&lt;/h3&gt;
 
-&lt;hr /&gt;
+&lt;blockquote&gt;&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
 
-&lt;h2 id=&quot;posts-content&quot;&gt;Post’s Content&lt;/h2&gt;
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
 
-&lt;h4 id=&quot;include-liquid-in-markdown&quot;&gt;Include Liquid in markdown&lt;/h4&gt;
+&lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;
+
+&lt;p&gt;This is the first level of quoting.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;This is nested blockquote.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Back to the first level.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.
+Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.
+Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;All legal markdown syntax may be allowed.&lt;/li&gt;
-  &lt;li&gt;Liquid synatax also should be allowed.&lt;/li&gt;
+&lt;li&gt;Candy.&lt;/li&gt;
+&lt;li&gt;Gum.&lt;/li&gt;
+&lt;li&gt;Booze.&lt;/li&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Blue&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;So, if you want to avoid syntax conflicts, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;With multiple paragraphs.&lt;/p&gt;
 
-&lt;p&gt;(More liquid syntax, see &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid-for-Designers&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4 id=&quot;markdown&quot;&gt;Markdown&lt;/h4&gt;
+&lt;p&gt;Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.*   Suspendisse id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://kramdown.gettalong.org/&quot;&gt;kramdown&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a list item with two paragraphs.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;test&quot;&gt;Test&lt;/h2&gt;
+&lt;p&gt;This is the second paragraph in the list item. You&amp;rsquo;re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.&lt;/p&gt;
 
-&lt;p&gt;Some long sentence.&lt;sup id=&quot;fnref:footnote&quot;&gt;&lt;a href=&quot;#fn:footnote&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Other long sentence.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Another item in the same list.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item with a bit of &lt;code&gt;code&lt;/code&gt; inline.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A list item with a blockquote:&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:footnote&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://google.com&quot;&gt;Link&lt;/a&gt;. &lt;a href=&quot;#fnref:footnote&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
+&lt;blockquote&gt;&lt;p&gt;This is a blockquote
+inside a list item.&lt;/p&gt;&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is an example of a pre code block&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tell application &quot;Foo&quot;
+    beep
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is an &lt;a href=&quot;#&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I start my morning with a cup of coffee and
+&lt;a href=&quot;http://www.nytimes.com/&quot;&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;code-snippet&quot;&gt;Code snippet&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'__main__'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threading&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;downloadWallpaper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;st&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Downloading Image'&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_alive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;st&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'.'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;current&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;img_thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
-        <pubDate>Fri, 30 Dec 2016 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/materialize-jekyll/posts/readme/readme.html</link>
-        <guid isPermaLink="true">http://localhost:4000/materialize-jekyll/posts/readme/readme.html</guid>
-        
-        <category>jekyll</category>
-        
-        <category>material design</category>
+        <pubDate>Sat, 04 Jun 2016 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000https://codeasashu.github.io/hcz-jekyll-blog/others/2016/06/04/example-content.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://codeasashu.github.io/hcz-jekyll-blog/others/2016/06/04/example-content.html</guid>
         
         
-        <category>readme</category>
+        <category>others</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Page</title>
+        <description>&lt;p&gt;This is a test blog page where we can explore how to embedd images in the blog.&lt;/p&gt;
+
+&lt;h2 id=&quot;image-example-1&quot;&gt;Image example 1&lt;/h2&gt;
+
+&lt;p&gt;Here, I will embedd image from local assets which goes into &lt;code class=&quot;highlighter-rouge&quot;&gt;assets&lt;/code&gt; directory in project’s &lt;code class=&quot;highlighter-rouge&quot;&gt;root&lt;/code&gt; directory. Choose a specific image, related to particular post. I chose to name the image &lt;code class=&quot;highlighter-rouge&quot;&gt;test-page-image-1.jpg&lt;/code&gt;, which I will embedd as:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;my alternate text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;/assets/test-page-image-1.jpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/test-page-image-1.jpg&quot; alt=&quot;my alternate text&quot; /&gt;;&lt;/p&gt;
+
+&lt;p&gt;Ofcourse, you can load images from web as well. Just point to image direct URL. For ex, here is one placeholder image:&lt;/p&gt;
+
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;my alternate text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;http://lorempixel.com/400/200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://lorempixel.com/400/200&quot; alt=&quot;my alternate text&quot; /&gt;;&lt;/p&gt;
+
+&lt;p&gt;One cool thing about this is the fact that images adapt themselves to the screen size of device. Try to resize your browser window and check for yourself, Have fun.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Jun 2015 21:50:39 +0800</pubDate>
+        <link>http://localhost:4000https://codeasashu.github.io/hcz-jekyll-blog/others/2015/06/04/test-page.html</link>
+        <guid isPermaLink="true">http://localhost:4000https://codeasashu.github.io/hcz-jekyll-blog/others/2015/06/04/test-page.html</guid>
+        
+        
+        <category>others</category>
         
       </item>
     

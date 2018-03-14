@@ -1,67 +1,28 @@
-# Site settings
+title: John Smith
+description: My Personal Blog
+author: John Smith
+logo: /hcz-jekyll-blog/static/img/avatar.png
+github: https://github.com/codeasashu
+about: Freelance developer
 
-author: Yourname
-email: example@email.com
-twitter_username: twitter
-github_username:  github
-googleplus_username: google
+baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
+url: "https://codeasashu.github.io/hcz-jekyll-blog"
 
-head-title: Your blog
-title: Your blog
+allowsearch: true
 
-baseurl: "/materialize-jekyll"    # the subpath of your site, "/blog"
-url: ""
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
 
-# footer 
-description: "I know that what I'm doing looks stupid, but I'm a big boy and really want to do this."
-
-favo: "春梦随云散，飞花逐水流"
-descrpt: "“巧者劳而智者忧，无能者无所求，饱食而遨游，泛若不系之舟”  ——《南华经》"
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
 
 
-#
-# Build settings
-#
+enableTags: true
+tagarray: []
 
-#exclude: [vendor]
-
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
 markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  highlight: true
-  auto_ids:  true
-
-sass:
-  style: compressed
-
-permalink: /posts/:categories/:title.html
-
-paginate: 7
-#paginate_path: 'page/:num'
-
-gems: [jekyll-paginate, jekyll-last-modified-at, jemoji]
-
-
-#
-# Custom
-#
-
-# Color
-# All css class, see: http://materializecss.com/color.html
-header-color: "indigo lighten-1"
-head-theme-color: "#5c6bc0"     # MUST in hex format, may the same as header-color. This color is for android chrome browser.
-
-footer-color: "indigo lighten-1"
-footer-button-color: "indigo lighten-2"
-footer-link-color: "red-text text-accent-1"
-
-share-button-color: "pink"
-share-button-small-color: ""
-
-
-##
-#excerpt_separator: <!-- excerpt_end -->       # for post.excerpt
-
+gems: [jekyll-paginate, jekyll-gist]
