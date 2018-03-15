@@ -6,6 +6,11 @@
     "layout": "post"
   },
   {
+    "text": "About",
+    "url": "/about/",
+    "icon": "fa-comments"
+  },
+  {
     "text": "Projects",
     "url": "/projects",
     "icon": "fa-desktop"
@@ -26,10 +31,5 @@
     "url": "/feed.xml",
     "icon": "fa-feed",
     "target": _blank
-  },
-  {
-    "text": "About",
-    "url": "/about/",
-    "icon": "fa-comments"
   }
 ]
