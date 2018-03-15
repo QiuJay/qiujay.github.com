@@ -3,7 +3,7 @@ description: 我的个人博客
 author: 仇杰
 logo: /static/img/avatar.png
 github: https://github.com/qiujayen
-about: Android developer
+about: Android Developer
 
 baseurl: "https://qiujayen.github.io"
 url: "https://qiujayen.github.io"
