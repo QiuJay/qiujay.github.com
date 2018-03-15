@@ -29,7 +29,7 @@
             </div>
             <p class="info">
               {% if page.date %}
-                <span class="time">{{ page.date }}</span>
+                <span class="time">{{ page.date | date: "%Y-%m-%d" }}</span>
               {% endif %}
               {% if page.categories.size > 0 %}
                 <span class="categories">
