@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "文章编写模板"
-date:   2018-03-15 13:50:39
-categories: android
+date:   2018-03-15
+categories: Android
 ---
-##
+##ß
 ```java
 public class Java{
     public static void main(String[] args){
