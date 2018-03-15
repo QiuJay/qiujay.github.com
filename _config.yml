@@ -1,9 +1,9 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
+title: 仇杰
+description: 我的个人博客
+author: 仇杰
 logo: /static/img/avatar.png
 github: https://github.com/qiujayen
-about: Freelance developer
+about: Android developer
 
 baseurl: "https://qiujayen.github.io"
 url: "https://qiujayen.github.io"
