@@ -2,7 +2,7 @@
 title: '仇杰的个人博客'
 description: '暂时不知道写什么'
 keyword: 'Android,Flutter,Kotlin'
-url: 'http://liaokeyu.com' # your host
+url: 'http://github.com/qiujayen' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -20,7 +20,7 @@ footer:
 # Author 配置博主信息
 author: '仇杰'
 nickname: '大侠'
-bio: 'Android Devleper'
+bio: 'Android Developer'
 avatar: '/assets/img/profile.png'
 
 # Search
