@@ -1,6 +1,6 @@
 # Site settings 配置站点
 title: '仇杰的个人博客'
-description: '暂时不知道写什么'
+description: '资深安卓开发工程师'
 keyword: 'Android,Flutter,Kotlin'
 url: 'http://qiujayen.github.io' # your host
 
@@ -77,7 +77,7 @@ recommend-condition-size: 12 # a tag will be recommended if the size of it is mo
 # Build settings
 paginate: 6
 paginate_path: 'page:num'
-exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore']
 
 # Markdown
 markdown: kramdown
