@@ -25,6 +25,14 @@ public class FragmentActivity extends BaseFragmentActivityApi16 {
 ```
 上面代码片段中我们可以发现有一个`FragmentController`，从类名就可以猜出，这是一个 Fragment 控制器，这里我们不深究，
 但基本可以确定，在 Activity 中是有这么一个专门用于管理 Fragment 的实例，而 Fragment 的生命周期方法也是由这个`FragmentController`回调的。
+而 FragmentController 实现对象会在相应的 Activity 相应的方法中去回调 Fragment 的生命周期方法。
 
-
-🤷
+## Fragment为何物？
+要了解 Fragment 是什么，我们先看看 Fragment 类的实现，上代码：
+```java
+public class Fragment implements ComponentCallbacks2, OnCreateContextMenuListener {
+    ......
+}
+```
+可以看出 Fragment 并不是 View，而我们一般用到 Fragment 时，都会重写`onCreateView`方法并返回一个 View 对象，
+那这个返回的 View 去哪里了？
