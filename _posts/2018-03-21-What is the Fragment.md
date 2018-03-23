@@ -6,7 +6,10 @@ author: Jay
 tags: Android
 ---
 
-Android在Android 3.0（API级别11）中引入了`Fragment`，主要用于在平板等大屏幕上支持更加动态和灵活的UI设计。由于平板电脑的屏幕比手机的屏幕大得多，因此有更多空间可以组合和交换UI组件。`Fragment`允许这样的设计，而无需您管理视图层次结构的复杂变化。通过将`Activity`的布局划分为`Fragment`，您可以在运行时修改`Activity`的外观，并将这些更改保留在`Activity`管理的后端堆栈中。
+Android在Android 3.0（API级别11）中引入了`Fragment`，主要用于在平板等大屏幕上支持更加动态和灵活的UI设计。
+由于平板电脑的屏幕比手机的屏幕大得多，因此有更多空间可以组合和交换UI组件。
+`Fragment`允许这样的设计，而无需您管理视图层次结构的复杂变化。通过将`Activity`的布局划分为`Fragment`，
+您可以在运行时修改`Activity`的外观，并将这些更改保留在`Activity`管理的后端堆栈中。
 
 >由于现在开发都是使用 support-v4 包中的 Fragment 进行开发，下面提到的源码将会以 support-v4 为主
 
@@ -20,5 +23,8 @@ public class FragmentActivity extends BaseFragmentActivityApi16 {
     ......
 }
 ```
-上面代码片段中我们可以发现有一个`FragmentController`，从类名就可以猜出，这是一个 Fragment 控制器，这里我们不深究，但基本可以确定，在 Activity 中是有这么一个专门用于管理 Fragment 的实例
+上面代码片段中我们可以发现有一个`FragmentController`，从类名就可以猜出，这是一个 Fragment 控制器，这里我们不深究，
+但基本可以确定，在 Activity 中是有这么一个专门用于管理 Fragment 的实例，而 Fragment 的生命周期方法也是由这个`FragmentController`回调的。
 
+
+🤷
