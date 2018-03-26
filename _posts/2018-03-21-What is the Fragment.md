@@ -36,3 +36,14 @@ public class Fragment implements ComponentCallbacks2, OnCreateContextMenuListene
 ```
 可以看出 Fragment 并不是 View，而我们一般用到 Fragment 时，都会重写`onCreateView`方法并返回一个 View 对象，
 那这个返回的 View 去哪里了？
+
+我们开发时，添加 Fragment 到 Activity 中，会调用 `FragmentTransaction` 对象的 `add()` 方法：
+```java
+public abstract FragmentTransaction add(int containerViewId, Fragment fragment);
+```
+上面的方法应该是我们最常用的 `add()` 方法，我们可以看到，参数中需要传一个 `containerViewId`，而我们一般是提供一个 FrameLayout 控件 ID，
+到这里我就可以回答上面我们提到的问题了，Fragment 中我们在`onCreateView`方法并返回一个 View 就被添加到了我们提供的这个 `containerViewId` 所对应的容器控件中了。
+
+所以，其实 Fragment 是用于管理一个 View Tree，这就好比，Activity 是树干，一个 Fragment 就是树枝，组合就形成了一个整体。
+
+文章开头我们就提到过，`Fragment`主要用于在平板等大屏幕上支持更加动态和灵活的UI设计。对于一些复杂的界面，我们可以切分出不同的 Fragment 来实现，不仅能达到预期的功能，而且还可以达到重用的效果
